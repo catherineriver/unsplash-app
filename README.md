@@ -1,12 +1,10 @@
-React practical assignment
+## React practical assignment.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 
-I used in project:
+Also I used in project:
 
 * Material UI, because I think that a simpler way to implement input with autosuggestions. 
-
 * LocalStorage for saving last search query
-* Reduxjs/toolkit for search result state
 
 
 To my shame, I couldn't cope with the Auth0 and Unsplash. Unsplash doesn't need `openId` scope for authorization, 
