@@ -1,10 +1,23 @@
-# Deployed to <a href="https://check-weather-app.vercel.app/">check-weather-app.vercel.app</a>
-
-## Getting Started with Create React App
+React practical assignment
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 
-## Available Scripts
+I used in project:
 
+* Material UI, because I think that a simpler way to implement input with autosuggestions. 
+
+* LocalStorage for saving last search query
+* Reduxjs/toolkit for search result state
+
+
+To my shame, I couldn't cope with the Auth0 and Unsplash. Unsplash doesn't need `openId` scope for authorization, 
+but Auth0 React SDK pass this parameter as default and(as developers of SDK says [here](https://github.com/auth0/auth0-react/issues/242#issuecomment-836346571))
+it should be passed. I did not come up with a solution, although I re-read the documentation for Unsplash and SDK
+several times.
+
+Anyway, doing this assignment was pleasure for me. 
+
+
+## Available Scripts
 In the project directory, you can run:
 
 ### `npm start`
@@ -14,11 +27,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
